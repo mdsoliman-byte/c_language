@@ -26,9 +26,11 @@ int main()
     printf("Size Of CharData %d\n", sizeof(charData));
     printf("Size of doubleData %d\n", sizeof(doubleData));
 
-   unsigned int a = 0;
-   unsigned int b = UINT_MAX;
-    printf("%u to %u", a, b);
+   long int a = LONG_MIN;
+   long int b = LONG_MAX;
+    printf("%d to %d", a, b);
+    // short int value SHRT_MIN to SHRT_MAX = -32768 to 32767;
+    //  long int value LONG_MIN to LONG_MAX = -2147483648 to 2147483647
 
     // signed int min value  to int max value = -2147483648 to 2147483647  its signed value
     // unsigned int min value 0 to max value = 0 to 4294967295
