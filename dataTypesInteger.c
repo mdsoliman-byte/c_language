@@ -20,9 +20,9 @@ int main()
     // double b = (double)a; // type cousting
     // printf("A = %d\n", a);
     // printf("B = %lf", &b); // & FOR VARIABLE ADDRESS
-    int a, b, sum;
-    scanf("%d ", &a);
-    scanf("%d ", &b);
+    // int a, b, sum;
+    // scanf("%d ", &a);
+    // scanf("%d ", &b);
     // sum = a + b;
 
     // printf("This Program rezult %d\n", sum);
@@ -30,6 +30,12 @@ int main()
     //  int a, b, sum;
     // scanf("%d", &a);
     // scanf("%d", &b);
-    sum = a + b;
-    printf("Result = %d\n ", sum);
+    // sum = a + b;
+    // printf("Result = %d\n ", sum);
+
+    int a, b, sum ;
+    scanf("%d %d", &a, &b);
+    // scanf("%d", &b);
+    sum = a + b ;
+    printf("this  : %d", sum );
 }
