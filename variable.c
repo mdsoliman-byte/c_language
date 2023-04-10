@@ -16,12 +16,17 @@ int main()
     // motherAge= 30;
     // printf("Your corunt age %d", myage);
     // printf("My Age Is %d %d %d", myage, fatheraGae, motherAge);
-    int numberA, numberB, numerc, sum;
+    int numberA, numberB, num_Rc, sum;
     numberA = 10;
-    numberB = 20; 
-    numerc = 12;
-    sum = numberA + numberB - numerc;
-    printf(" your number %d",sum);
+    numberB = 20;
+    num_Rc = 12;
+    sum = numberA + numberB - num_Rc;
+    printf(" your number %d", sum);
 
     return 0;
 }
+
+// variable naming convantion
+// variable is a case sensetive
+//  int a valur = 10 (its not true , its given error,   we cannto use space or any spacial carector in variable name  )
+// int avalue = 10 (ite true , we can use underscor )
