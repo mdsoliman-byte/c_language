@@ -14,6 +14,7 @@
 //  data type modifiers
 // short , long , signed , unsigned ,
 #include <stdio.h>
+#include <limits.h>
 int main()
 {
     int intData;
@@ -25,6 +26,12 @@ int main()
     printf("Size Of CharData %d\n", sizeof(charData));
     printf("Size of doubleData %d\n", sizeof(doubleData));
 
+   unsigned int a = 0;
+   unsigned int b = UINT_MAX;
+    printf("%u to %u", a, b);
+
+    // signed int min value  to int max value = -2147483648 to 2147483647  its signed value
+    // unsigned int min value 0 to max value = 0 to 4294967295
     // int a = 56;
 
     // double b = 5.6;
@@ -49,4 +56,6 @@ int main()
     // // scanf("%d", &b);
     // sum = a + b ;
     // printf("this  : %d", sum );
+
+    return 0;
 }
