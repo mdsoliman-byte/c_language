@@ -30,3 +30,6 @@ int main()
 // variable is a case sensetive
 //  int a valur = 10 (its not true , its given error,   we cannto use space or any spacial carector in variable name  )
 // int avalue = 10 (ite true , we can use underscor )
+
+// we cannot use any reserved keywords 
+// Example : if, els, switch , for , while , int , float , long , double 
