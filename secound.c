@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdio.h> // INPUT OUTPUT FILE 
 int main()
 {
     printf("Hello shakil how are you ");
