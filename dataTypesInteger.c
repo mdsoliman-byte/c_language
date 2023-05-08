@@ -58,6 +58,8 @@ int main()
     // // scanf("%d", &b);
     // sum = a + b ;
     // printf("this  : %d", sum );
+    int a , b , c ;
+    
 
     return 0;
 }
