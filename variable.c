@@ -39,10 +39,21 @@
 // we cannot use any reserved keywords
 // Example : if, els, switch , for , while , int , float , long , double
 
-#include <stdio.h> // <stdio.h > its means (Standard Input output .header)
-int main()         // int means integer , its a keyword
+// #include <stdio.h> // <stdio.h > its means (Standard Input output .header)
+// int main()         // int means integer , its a keyword
 // main() its a function
+// {
+//     printf("Hello World hello "); // its laybery function its from stdio.h file
+//     return 0;
+// }
+
+//  Phitron
+
+#include <stdio.h>
+int main()
 {
-    printf("Hello World hello "); // its laybery function its from stdio.h file
+    char shakil;
+    scanf("%c", &shakil);
+    printf("Hello Im %c ", shakil);
     return 0;
 }
