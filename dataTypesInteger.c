@@ -70,6 +70,6 @@ int main()
     first = 40;
     srcound = 50;
     sum = first + srcound;
-    printf("Sum Is %d", sum);
+    printf("Sum Is %d\nFrist %d\nSecound %d\nTotal =  %d", sum, first, srcound, sum);
     return 0;
 }
