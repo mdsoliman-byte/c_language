@@ -1,4 +1,3 @@
-Sum Is 90
-Frist 40
-Secound 50
-Total =  90
+First Number = 10124 
+Secound Number = 20 
+Total Sum = 10144
