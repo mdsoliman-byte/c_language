@@ -62,3 +62,14 @@
 
 // return 0;
 // }
+
+#include <stdio.h>
+int main()
+{
+    int first, srcound, sum;
+    first = 40;
+    srcound = 50;
+    sum = first + srcound;
+    printf("Sum Is %d", sum);
+    return 0;
+}
