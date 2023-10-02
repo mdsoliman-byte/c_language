@@ -71,9 +71,21 @@ int main()
     // srcound = 50;
     // sum = first + srcound;
     // printf("Sum Is %d\nFrist %d\nSecound %d\nTotal =  %d", sum, first, srcound, sum);
-    int a = 10124;
-    int b = 20;
-    int sum = a + b;
-    printf("First Number = %d \nSecound Number = %d \nTotal Sum = %d", a, b, sum);
+
+    // int a = 10124;
+    // int b = 20;
+    // int sum = a + b;
+    // printf("First Number = %d \nSecound Number = %d \nTotal Sum = %d", a, b, sum);
+
+    // int first, secound;
+    // first = 20;
+    // secound = first;
+    // first = 30;
+    // printf("%d", secound);
+    int a, b, sum;
+    a = 20;
+    b = 40;
+    sum = a + b;
+    printf("%d + %d = %d", a, b, sum);
     return 0;
 }

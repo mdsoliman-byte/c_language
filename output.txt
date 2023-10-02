@@ -1,3 +1,1 @@
-First Number = 10124 
-Secound Number = 20 
-Total Sum = 10144
+20 + 40 = 60
